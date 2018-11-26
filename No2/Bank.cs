@@ -30,7 +30,7 @@ namespace No2
             }
             else
             {
-                buying?.Invoke(this, new BankStateEventArgs(stockInfo.Euro, "Bank buying euros");
+                buying?.Invoke(this, new BankStateEventArgs(stockInfo.Euro, "Bank buying euros"));
             }
         }
     }
