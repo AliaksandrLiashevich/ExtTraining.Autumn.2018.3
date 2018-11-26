@@ -19,6 +19,8 @@ namespace No2.Solution.Console
             stock.Register(broker);
             stock.Market();
 
+            stock.Notify();
+
             System.Console.ReadLine();
         }
     }
